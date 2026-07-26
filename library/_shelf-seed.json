@@ -1,0 +1,143 @@
+{
+  "note": "Starting book list documented from Tanya's shelf photos (July 2026). Each book gets its own <slug>.json once indexed via the 'index a book' flow (cover photo → web lookup, or index-page photos for page-accurate entries).",
+  "books": [
+    {
+      "title": "Savouring Provence",
+      "author": "Diane Holuigue",
+      "cuisine": "French",
+      "indexed": false
+    },
+    {
+      "title": "Larousse Gastronomique",
+      "author": "",
+      "cuisine": "French",
+      "indexed": false
+    },
+    {
+      "title": "bills open kitchen",
+      "author": "Bill Granger",
+      "cuisine": "Modern Australian",
+      "indexed": false
+    },
+    {
+      "title": "Veliki Narodni Kuvar",
+      "author": "",
+      "cuisine": "Serbian (family copy, Cyrillic)",
+      "indexed": false
+    },
+    {
+      "title": "Jerusalem / Ottolenghi titles",
+      "author": "Yotam Ottolenghi",
+      "cuisine": "Middle Eastern / Modern",
+      "indexed": false
+    },
+    {
+      "title": "Noma",
+      "author": "René Redzepi",
+      "cuisine": "Fine dining",
+      "indexed": false
+    },
+    {
+      "title": "The Whole Fish Cookbook",
+      "author": "Josh Niland",
+      "cuisine": "Fine dining",
+      "indexed": false
+    },
+    {
+      "title": "Falastin",
+      "author": "Sami Tamimi",
+      "cuisine": "Middle Eastern",
+      "indexed": false
+    },
+    {
+      "title": "Zaitoun",
+      "author": "Yasmin Khan",
+      "cuisine": "Middle Eastern",
+      "indexed": false
+    },
+    {
+      "title": "Culinaria Italy",
+      "author": "",
+      "cuisine": "Italian",
+      "indexed": false
+    },
+    {
+      "title": "Franklin Barbecue",
+      "author": "Aaron Franklin",
+      "cuisine": "BBQ/Live-fire",
+      "indexed": false
+    },
+    {
+      "title": "Seven Fires",
+      "author": "Francis Mallmann",
+      "cuisine": "BBQ/Live-fire",
+      "indexed": false
+    },
+    {
+      "title": "Africola",
+      "author": "Duncan Welgemoed",
+      "cuisine": "Live-fire",
+      "indexed": false
+    },
+    {
+      "title": "Adam Liaw titles",
+      "author": "Adam Liaw",
+      "cuisine": "Asian",
+      "indexed": false
+    },
+    {
+      "title": "Kylie Kwong titles",
+      "author": "Kylie Kwong",
+      "cuisine": "Chinese",
+      "indexed": false
+    },
+    {
+      "title": "Thai Food",
+      "author": "David Thompson",
+      "cuisine": "Thai",
+      "indexed": false
+    },
+    {
+      "title": "The Complete Asian Cookbook",
+      "author": "Charmaine Solomon",
+      "cuisine": "Asian",
+      "indexed": false
+    },
+    {
+      "title": "Madhur Jaffrey titles",
+      "author": "Madhur Jaffrey",
+      "cuisine": "Indian",
+      "indexed": false
+    },
+    {
+      "title": "Damien Pignolet titles",
+      "author": "Damien Pignolet",
+      "cuisine": "French",
+      "indexed": false
+    },
+    {
+      "title": "Neil Perry titles",
+      "author": "Neil Perry",
+      "cuisine": "Modern Australian",
+      "indexed": false
+    },
+    {
+      "title": "Matt Moran titles",
+      "author": "Matt Moran",
+      "cuisine": "Modern Australian",
+      "indexed": false
+    },
+    {
+      "title": "Guy Grossi titles",
+      "author": "Guy Grossi",
+      "cuisine": "Italian",
+      "indexed": false
+    },
+    {
+      "title": "Marco Pierre White titles",
+      "author": "Marco Pierre White",
+      "cuisine": "European",
+      "indexed": false
+    }
+  ]
+}
