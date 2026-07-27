@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Pillow (image validation)
+      - name: Install Pillow (image validation and placeholders)
         run: pip install --quiet pillow
 
       - name: Decode images sent as text (.b64 -> image), with validation
@@ -42,6 +42,30 @@ jobs:
               echo "::warning::$f was not a valid image and was discarded; existing image (if any) kept"
             fi
           done
+
+      - name: Generate placeholders for any missing or broken recipe images
+        run: |
+          python3 - <<'EOF'
+          import pathlib, re, subprocess
+          from PIL import Image
+          for md in sorted(pathlib.Path('recipes').glob('*.md')):
+              front = md.read_text(encoding='utf-8').split('---')[1]
+              meta = {}
+              for line in front.strip().splitlines():
+                  k, _, v = line.partition(':')
+                  meta[k.strip()] = v.strip()
+              img = pathlib.Path(meta.get('image', ''))
+              title = meta.get('title', md.stem)
+              ok = False
+              if img and img.exists():
+                  try:
+                      im = Image.open(img); im.load(); ok = True
+                  except Exception:
+                      pass
+              if img and not ok:
+                  print(f"generating placeholder for {title} -> {img}")
+                  subprocess.run(['python3', 'scripts/make_placeholder.py', title, str(img)], check=True)
+          EOF
 
       - name: Rebuild website
         run: python3 scripts/build_site.py
