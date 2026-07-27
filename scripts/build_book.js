@@ -40,10 +40,34 @@ const T = (text, o = {}) => new TextRun({ text, font: FONT, ...o });
 const spacer = (n) => Array.from({ length: n }, () => P({ children: [] }));
 const brk = () => P({ children: [new PageBreak()] });
 
-function img(rel, wMM, hMM) {
+/* Pixel dimensions straight from the file header, so portrait and landscape
+   photos both keep their true proportions instead of being stretched. */
+function pixelSize(buf, ext) {
+  if (ext === 'png') return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) };
+  let i = 2;
+  while (i < buf.length - 9) {
+    if (buf[i] !== 0xFF) { i++; continue; }
+    const marker = buf[i + 1];
+    if (marker >= 0xC0 && marker <= 0xCF && ![0xC4, 0xC8, 0xCC].includes(marker))
+      return { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) };
+    const len = buf.readUInt16BE(i + 2);
+    if (len < 2) break;
+    i += 2 + len;
+  }
+  return null;
+}
+
+function img(rel, maxWMM, maxHMM) {
   const ext = rel.toLowerCase().endsWith('.png') ? 'png' : 'jpg';
+  const data = fs.readFileSync(path.join(ROOT, rel));
+  const px = pixelSize(data, ext);
+  let wMM = maxWMM, hMM = maxHMM;
+  if (px && px.w > 0 && px.h > 0) {
+    const scale = Math.min(maxWMM / px.w, maxHMM / px.h);
+    wMM = px.w * scale; hMM = px.h * scale;
+  }
   return new ImageRun({
-    type: ext, data: fs.readFileSync(path.join(ROOT, rel)),
+    type: ext, data,
     transformation: { width: wMM * 3.7795, height: hMM * 3.7795 }
   });
 }
@@ -95,9 +119,9 @@ recipes.forEach((r, i) => {
   children.push(P({ spacing: { before: 240, after: 120 }, children: [T("Method", { size: 26, bold: true, color: BROWN })] }));
   for (const para of r.method) children.push(P({ spacing: { after: 180 }, children: [T(para, { size: 22 })] }));
   children.push(brk());
-  // facing image page
-  children.push(...spacer(4));
-  children.push(P({ alignment: AlignmentType.CENTER, children: [img(r.image, 150, 112)] }));
+  // facing image page — fits inside this box, portrait or landscape
+  children.push(...spacer(3));
+  children.push(P({ alignment: AlignmentType.CENTER, children: [img(r.image, 150, 195)] }));
   if (r.image_status === 'placeholder')
     children.push(P({ alignment: AlignmentType.CENTER, spacing: { before: 120 }, children: [T("(placeholder — awaiting Tanya’s photograph)", { italics: true, size: 18, color: ACCENT })] }));
   if (i < recipes.length - 1) children.push(brk());
