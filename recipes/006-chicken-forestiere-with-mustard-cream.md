@@ -6,8 +6,8 @@ tag: Tanya's Original
 credit: 
 cuisine: French-inspired
 course: Main
-image: images/006-chicken-forestiere-with-mustard-cream.png
-image_status: placeholder
+image: images/006-chicken-forestiere-with-mustard-cream.jpg
+image_status: photo
 reference_link: 
 date_added: 2026-07-20
 status: in-progress

@@ -1,18 +1,32 @@
 #!/usr/bin/env python3
 """CI step: decode images-src/*.b64 into images/, then generate styled
-placeholders for any recipe (and the cover) still missing an image file."""
+placeholders for any recipe (and the cover) still missing an image file.
+
+A photo arrives either as images-src/NAME.b64, or split across
+images-src/NAME.b64.part1, .part2, ... which are joined in numeric order
+(large photos can exceed a single upload's size limit).
+"""
 import base64, pathlib, re, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 IMG, SRC = ROOT / 'images', ROOT / 'images-src'
 IMG.mkdir(exist_ok=True)
 
-# 1. Decode uploaded photos (images-src/NNN-slug.jpg.b64 -> images/NNN-slug.jpg)
-for f in sorted(SRC.glob('*.b64')) if SRC.exists() else []:
-    out = IMG / f.name[:-4]
-    data = base64.b64decode(f.read_text().strip().encode(), validate=False)
-    out.write_bytes(data)
-    print(f'decoded {f.name} -> images/{out.name} ({len(data)} bytes)')
+# 1. Decode uploaded photos (images-src/NNN-slug.jpg[.b64|.b64.partN] -> images/NNN-slug.jpg)
+groups = {}
+for f in sorted(SRC.iterdir()) if SRC.exists() else []:
+    if f.name.endswith('.b64'):
+        groups.setdefault(f.name[:-4], {})[0] = f
+    else:
+        m = re.match(r'^(.+)\.b64\.part(\d+)$', f.name)
+        if m:
+            groups.setdefault(m.group(1), {})[int(m.group(2))] = f
+
+for name, parts in sorted(groups.items()):
+    text = ''.join(parts[k].read_text().strip() for k in sorted(parts))
+    data = base64.b64decode(text.encode(), validate=False)
+    (IMG / name).write_bytes(data)
+    print(f'decoded {name} from {len(parts)} part(s) -> images/{name} ({len(data)} bytes)')
 
 # 2. Placeholders for recipes with no image file
 for md in sorted((ROOT / 'recipes').glob('*.md')):
