@@ -6,8 +6,8 @@ tag: Tanya's Collection
 credit: "Serbian heritage — from Veliki Narodni Kuvar, translated from the original Cyrillic"
 cuisine: Serbian
 course: Dessert
-image: images/008-serbian-chestnut-torte.jpg
-image_status: photo
+image: images/008-serbian-chestnut-torte.png
+image_status: placeholder
 reference_link: 
 date_added: 2026-07-27
 status: final
