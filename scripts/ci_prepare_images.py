@@ -4,7 +4,9 @@ placeholders for any recipe (and the cover) still missing an image file.
 
 A photo arrives either as images-src/NAME.b64, or split across
 images-src/NAME.b64.part1, .part2, ... which are joined in numeric order
-(large photos can exceed a single upload's size limit).
+(large photos can exceed a single upload's size limit). If both a whole
+.b64 and loose .partN files exist for the same photo, the whole file wins
+and the parts are ignored — never mixed together.
 """
 import base64, pathlib, re, subprocess, sys
 
@@ -23,6 +25,9 @@ for f in sorted(SRC.iterdir()) if SRC.exists() else []:
             groups.setdefault(m.group(1), {})[int(m.group(2))] = f
 
 for name, parts in sorted(groups.items()):
+    if 0 in parts and len(parts) > 1:
+        print(f'{name}: whole .b64 present, ignoring {len(parts) - 1} loose part file(s)')
+        parts = {0: parts[0]}
     text = ''.join(parts[k].read_text().strip() for k in sorted(parts))
     data = base64.b64decode(text.encode(), validate=False)
     (IMG / name).write_bytes(data)
