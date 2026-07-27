@@ -41,8 +41,9 @@ const spacer = (n) => Array.from({ length: n }, () => P({ children: [] }));
 const brk = () => P({ children: [new PageBreak()] });
 
 function img(rel, wMM, hMM) {
+  const ext = rel.toLowerCase().endsWith('.png') ? 'png' : 'jpg';
   return new ImageRun({
-    type: "png", data: fs.readFileSync(path.join(ROOT, rel)),
+    type: ext, data: fs.readFileSync(path.join(ROOT, rel)),
     transformation: { width: wMM * 3.7795, height: hMM * 3.7795 }
   });
 }
@@ -56,7 +57,8 @@ children.push(...spacer(1));
 children.push(P({ alignment: AlignmentType.CENTER, children: [T("LICINA", { size: 72, bold: true, color: BROWN })] }));
 children.push(P({ alignment: AlignmentType.CENTER, children: [T("FAMILY RECIPE COLLECTION", { size: 48, bold: true, color: BROWN })] }));
 children.push(...spacer(2));
-children.push(P({ alignment: AlignmentType.CENTER, children: [img('images/cover.png', 100, 133)] }));
+const coverFile = fs.readdirSync(path.join(ROOT,'images')).find(f => f.startsWith('cover.'));
+children.push(P({ alignment: AlignmentType.CENTER, children: [img('images/' + coverFile, 100, 133)] }));
 children.push(...spacer(2));
 children.push(P({ alignment: AlignmentType.CENTER, children: [T("Recipes gathered with love, from Tatjana’s kitchen — to the kitchens of future generations of Licinas", { italics: true, size: 24, color: MID })] }));
 children.push(brk());
