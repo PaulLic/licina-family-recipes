@@ -1,0 +1,70 @@
+name: Rebuild site and book
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'recipes/**'
+      - 'images/**'
+      - 'library/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Pillow (image validation)
+        run: pip install --quiet pillow
+
+      - name: Decode images sent as text (.b64 -> image), with validation
+        run: |
+          shopt -s nullglob
+          for f in images/*.b64; do
+            out="${f%.b64}"
+            echo "decoding $f -> $out"
+            if base64 -d "$f" > /tmp/decoded 2>/dev/null && \
+               python3 -c "from PIL import Image; im=Image.open('/tmp/decoded'); im.load()" 2>/dev/null; then
+              mv /tmp/decoded "$out"
+              rm "$f"
+              echo "OK: $out"
+            else
+              rm -f "$f" /tmp/decoded
+              echo "::warning::$f was not a valid image and was discarded; existing image (if any) kept"
+            fi
+          done
+
+      - name: Rebuild website
+        run: python3 scripts/build_site.py
+
+      - name: Rebuild printable book (docx)
+        run: |
+          npm install --no-audit --no-fund docx
+          node scripts/build_book.js
+
+      - name: Convert book to PDF
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends libreoffice-writer
+          soffice --headless --convert-to pdf book/Licina-Family-Recipe-Book.docx --outdir book
+
+      - name: Commit rebuilt files
+        run: |
+          git config user.name "recipe-book-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A images index.html book
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "Rebuild site and book [skip ci]"
+            git push
+          fi
