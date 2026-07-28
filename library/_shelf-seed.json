@@ -138,6 +138,12 @@
       "author": "Marco Pierre White",
       "cuisine": "European",
       "indexed": false
+    },
+    {
+      "title": "Ottolenghi FLAVOUR",
+      "author": "Yotam Ottolenghi and Ixta Belfrage",
+      "cuisine": "Middle Eastern / Modern vegetarian",
+      "indexed": true
     }
   ]
 }
