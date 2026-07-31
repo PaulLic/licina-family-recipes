@@ -96,8 +96,8 @@ children.push(...spacer(3));
 children.push(P({ alignment: AlignmentType.CENTER, children: [T("About This Collection", { size: 40, bold: true, color: BROWN })] }));
 children.push(...spacer(1));
 for (const para of [
-  "My love of cooking is a creative outlet and a break from the administrative demands of my career in HR management — a space for relaxation, self-expression, and showing love to my family. Cooking and dining also help me organise and maintain social connections, from family dinners to events built around fine food and wine.",
-  "This collection gathers the dishes Natasha and Bianca grew up on, alongside my own creations and favourites drawn from my personal cookbook library.",
+  "My beautiful daughters Natasha and Bianca asked me to write a recipe book of all their favourite meals they enjoyed as children and continue to enjoy as young adults. This collection includes those recipes and a collection of my own favourites from talented chefs and my own creations.",
+  "For me, cooking has always been an expression of my creativity and my kitchen a space for relaxation. Preparing and serving food for my family and friends is how I stay socially connected and show love. My husband motivates and encourages my passion for cooking; often joining me in designing menus, sourcing ingredients and preparing dinners for social occasions with our friends and family.",
 ]) children.push(P({ spacing: { after: 240 }, children: [T(para, { size: 24 })] }));
 children.push(...spacer(1));
 children.push(P({ children: [T("How Recipes Are Tagged", { size: 28, bold: true, color: BROWN })] }));
