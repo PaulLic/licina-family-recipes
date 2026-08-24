@@ -2,12 +2,12 @@
 number: 12
 title: Old-Fashioned Crescent Cookies with Jam
 alt_title: Starinske Kiflice sa Džemom
-tag: Tanya's Collection
+tag: Family Favourite
 credit: "adapted from Ivana Lalicki, Serbian Cookbook: Recipes and Stories from Serbia"
 cuisine: Serbian
 course: Sweets & Biscuits
-image: images/012-old-fashioned-crescent-cookies-with-jam.png
-image_status: placeholder
+image: images/012-old-fashioned-crescent-cookies-with-jam.jpg
+image_status: photo
 reference_link: ""
 date_added: 2026-08-24
 status: final
