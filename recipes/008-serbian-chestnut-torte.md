@@ -35,4 +35,6 @@ status: final
 8. Melt the chocolate and butter together in a small saucepan over low heat until glossy and smooth.
 9. Pour over the top of the cake and return to the refrigerator to cool completely.
 
-To make small cakes from this recipe, use rectangular tins and cut into small squares.
+## Chef's Tips
+
+1. To make small cakes from this recipe, use rectangular tins and cut into small squares.

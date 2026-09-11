@@ -36,4 +36,6 @@ status: final
 5. Cover with the second sheet, brush the top with egg yolk, and bake in a fairly hot oven.
 6. Cut into squares once baked and dust with sugar to serve.
 
-Keeps well for several days — reportedly even better with time.
+## Chef's Tips
+
+1. Keeps well for several days — reportedly even better with time.

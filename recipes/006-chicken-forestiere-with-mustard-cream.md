@@ -38,4 +38,6 @@ status: final
 7. Return the chicken to the pan and add the wine, letting it reduce by half, then stir through the cream and Dijon mustard. Season with salt and pepper to taste.
 8. Let the sauce thicken for a few minutes, and add the green shallots just before serving so they stay fresh and green.
 
-Serve with mashed potatoes and green beans.
+## Chef's Tips
+
+1. Serve with mashed potatoes and green beans.

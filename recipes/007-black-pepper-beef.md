@@ -39,4 +39,7 @@ Black pepper paste: 1 tsp freshly ground black pepper, 1 tbsp oyster sauce, 1 ts
 8. Spoon in the black pepper paste and toss the beef for 2–3 minutes, until well coated and the paste is starting to caramelise.
 9. Return the vegetables to the wok, toss until well combined, and serve with rice.
 
-This recipe has a surprising amount of heat from the black pepper. For a milder version, reduce the amount of pepper in the paste and grind a little over at the end for flavour and aroma. Also works well with pork or chicken.
+## Chef's Tips
+
+1. This recipe has a surprising amount of heat from the black pepper. For a milder version, reduce the amount of pepper in the paste and grind a little over at the end for flavour and aroma.
+2. Also works well with pork or chicken.
