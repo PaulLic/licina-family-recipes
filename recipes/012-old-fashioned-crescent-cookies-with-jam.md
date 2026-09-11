@@ -1,6 +1,6 @@
 ---
 number: 12
-title: Old-Fashioned Crescent Cookies with Jam
+title: Traditional Shortbread Crescent Biscuits with Jam
 alt_title: Starinske Kiflice sa Džemom
 tag: Family Favourite
 credit: "adapted from Ivana Lalicki, Serbian Cookbook: Recipes and Stories from Serbia"
