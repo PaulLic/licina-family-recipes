@@ -17,10 +17,11 @@ def parse_recipe(path):
             v = json.loads(v)
         meta[k.strip()] = v
     sections = {}
-    for name, content in re.findall(r'## (\w[\w &]*)\n\n(.*?)(?=\n## |\Z)', body, re.S):
+    for name, content in re.findall(r"## ([\w][\w &'\u2019-]*)\n\n(.*?)(?=\n## |\Z)", body, re.S):
         sections[name.lower()] = content.strip()
     meta['ingredients'] = sections.get('ingredients', '')
     meta['method'] = sections.get('method', '')
+    meta['tips'] = sections.get("chef's tips", sections.get('chef’s tips', ''))
     return meta
 
 def md_inline(s):
@@ -60,6 +61,7 @@ recipes = [parse_recipe(p) for p in sorted((ROOT/'recipes').glob('*.md'))]
 for r in recipes:
     r['ingredients_html'] = render_list(r['ingredients'])
     r['method_html'] = render_method(r['method'])
+    r['tips_html'] = render_method(r['tips']) if r.get('tips') else ''
     r['search'] = ' '.join([r.get('title',''), r.get('alt_title',''), r.get('cuisine',''),
                             r.get('course',''), r.get('tag',''), r.get('ingredients','')]).lower()
 
@@ -197,7 +199,7 @@ function open_(i){
     <div class="credit">${r.tag}${r.credit?' — '+r.credit:''}</div>
     <img src="${r.image}" alt="${r.title}">
     ${r.status==='in-progress'?'<p class="libnote">This one is still in progress.</p>':''}
-    <h4>Ingredients</h4>${r.ingredients_html}<h4>Method</h4>${r.method_html}`;
+    <h4>Ingredients</h4>${r.ingredients_html}<h4>Method</h4>${r.method_html}${r.tips_html?`<h4>Chef&rsquo;s Tips</h4>${r.tips_html}`:''}`;
   $('ov').classList.add('open'); window.scrollTo(0,0);
 }
 $('ov').addEventListener('click', e => { if(e.target===$('ov')) $('ov').classList.remove('open'); });

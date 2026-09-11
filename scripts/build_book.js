@@ -28,6 +28,11 @@ function parseRecipe(file) {
   }
   meta.ingredients = (sec['ingredients'] || '').split('\n').filter(l => l.startsWith('- ')).map(l => l.slice(2).replace(/\*/g, ''));
   meta.method = [];
+  meta.tips = [];
+  for (const line of (sec["chef's tips"] || sec['chef\u2019s tips'] || '').split('\n')) {
+    const t = line.trim();
+    if (t) meta.tips.push(t.replace(/^\d+[.)]\s+/, '').replace(/\*/g, '').trim());
+  }
   for (const block of (sec['method'] || '').split('\n\n')) {
     const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
     if (!lines.length) continue;
@@ -138,6 +143,19 @@ recipes.forEach((r, i) => {
       }));
     } else {
       children.push(P({ spacing: { after: 180 }, children: [T(para.text, { size: 22 })] }));
+    }
+  }
+  if (r.tips.length) {
+    children.push(P({ spacing: { before: 240, after: 120 }, children: [T("Chef\u2019s Tips", { size: 26, bold: true, color: BROWN })] }));
+    let tipNo = 0;
+    for (const tip of r.tips) {
+      tipNo += 1;
+      children.push(P({
+        spacing: { after: 140 },
+        indent: { left: 400, hanging: 400 },
+        tabStops: [{ type: TabStopType.LEFT, position: 400 }],
+        children: [T(`${tipNo}.`, { size: 22, color: ACCENT }), new TextRun({ children: [new Tab()] }), T(tip, { size: 22 })]
+      }));
     }
   }
   children.push(brk());
