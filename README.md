@@ -1,6 +1,6 @@
 # The Licina Family Recipe Collection
 
-Recipes gathered with love, from Tatjana's kitchen — to the kitchens of future generations of Licinas.
+Recipes gathered with love, from Tatjana's kitchen for the kitchens of future generations of Licinas.
 
 This repository is maintained automatically by Tanya's Claude **add-recipe** skill. Please don't edit files by hand — add or edit recipes by talking to Claude.
 

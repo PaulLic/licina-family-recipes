@@ -117,7 +117,7 @@ footer{text-align:center;color:var(--mid);font-size:.85rem;padding:30px 0 40px;f
   <div class="the">THE</div>
   <h1>LICINA<br>FAMILY RECIPE COLLECTION</h1>
   <hr class="rule">
-  <div class="tagline">Recipes gathered with love, from Tatjana&rsquo;s kitchen &mdash; to the kitchens of future generations of Licinas</div>
+  <div class="tagline">Recipes gathered with love, from Tatjana&rsquo;s kitchen for the kitchens of future generations of Licinas</div>
   <a class="dl" href="book/Licina-Family-Recipe-Book.pdf">Download the printable book (PDF)</a>
 </header>
 <nav class="tabs">
