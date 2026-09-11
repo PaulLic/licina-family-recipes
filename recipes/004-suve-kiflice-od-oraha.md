@@ -24,6 +24,10 @@ status: final
 
 ## Method
 
-Grind the walnuts and place them in a pot with the sugar, egg whites, and lemon zest. Mix together and warm gently on the stove — just enough to dissolve the sugar into the mixture, without letting it boil. Remove from the heat and transfer to another dish to cool.
-
-Once cooled, mix in the remaining 2 egg whites. Turn the dough out onto a floured board and work it until it no longer sticks to your hands. Shape into rolls about 10cm long, curve each into a crescent shape, sprinkle generously with chopped walnuts, and bake on low heat so they stay pale.
+1. Grind the walnuts and place them in a pot with the sugar, egg whites, and lemon zest.
+2. Mix together and warm gently on the stove — just enough to dissolve the sugar into the mixture, without letting it boil.
+3. Remove from the heat and transfer to another dish to cool.
+4. Once cooled, mix in the remaining 2 egg whites.
+5. Turn the dough out onto a floured board and work it until it no longer sticks to your hands.
+6. Shape into rolls about 10cm long, curve each into a crescent shape, and sprinkle generously with chopped walnuts.
+7. Bake on low heat so they stay pale.

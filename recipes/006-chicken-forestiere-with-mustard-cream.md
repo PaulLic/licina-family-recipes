@@ -29,14 +29,13 @@ status: final
 
 ## Method
 
-Heat the oven to 180°C.
-
-Coat the chicken breasts in plain flour, shaking off the excess. Melt the butter in a wide cast iron pan over medium heat and sear the breasts until they are a golden colour on both sides. Halfway through the searing, add the chopped garlic and let it stick to both sides of the chicken — keep an eye on it, as the garlic shouldn't be allowed to burn.
-
-Lift the chicken out of the pan into an ovenproof dish and bake for 20 minutes.
-
-Meanwhile, fry the bacon and mushrooms in the same cast iron pan. Return the chicken to the pan and add the wine, letting it reduce by half, then stir through the cream and Dijon mustard. Season with salt and pepper to taste.
-
-Let the sauce thicken for a few minutes, and add the green shallots just before serving so they stay fresh and green.
+1. Heat the oven to 180°C.
+2. Coat the chicken breasts in plain flour, shaking off the excess.
+3. Melt the butter in a wide cast iron pan over medium heat and sear the breasts until they are a golden colour on both sides.
+4. Halfway through the searing, add the chopped garlic and let it stick to both sides of the chicken — keep an eye on it, as the garlic shouldn't be allowed to burn.
+5. Lift the chicken out of the pan into an ovenproof dish and bake for 20 minutes.
+6. Meanwhile, fry the bacon and mushrooms in the same cast iron pan.
+7. Return the chicken to the pan and add the wine, letting it reduce by half, then stir through the cream and Dijon mustard. Season with salt and pepper to taste.
+8. Let the sauce thicken for a few minutes, and add the green shallots just before serving so they stay fresh and green.
 
 Serve with mashed potatoes and green beans.

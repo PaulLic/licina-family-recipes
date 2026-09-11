@@ -28,8 +28,13 @@ status: final
 
 ## Method
 
-Heat the oil and melt the butter in a skillet over medium-high heat. Add the mushrooms and let them cook unhurried until golden brown, about 4–5 minutes — no need to stir constantly. Just before they're done, add the garlic with a pinch of salt and pepper and cook for a minute more, until the garlic turns golden.
+Enough for two.
 
-Pour in the wine — it will sizzle. Stir and scrape the bottom of the pan for a minute, until it has mostly evaporated. Add the broth, cream and parmesan, then lower the heat to a gentle simmer; don't let it boil hard or the cream may split.
-
-Stir occasionally and simmer for 2–3 minutes, until it thickens a little — it shouldn't be heavy, this is a rich sauce. Stir through the thyme, taste for salt and pepper, and take it off the heat. Serve over chicken breasts or eye fillet, or toss it through pasta. Enough for two.
+1. Heat the oil and melt the butter in a skillet over medium-high heat.
+2. Add the mushrooms and let them cook unhurried until golden brown, about 4–5 minutes — no need to stir constantly.
+3. Just before they're done, add the garlic with a pinch of salt and pepper and cook for a minute more, until the garlic turns golden.
+4. Pour in the wine — it will sizzle. Stir and scrape the bottom of the pan for a minute, until it has mostly evaporated.
+5. Add the broth, cream and parmesan, then lower the heat to a gentle simmer; don't let it boil hard or the cream may split.
+6. Stir occasionally and simmer for 2–3 minutes, until it thickens a little — it shouldn't be heavy, this is a rich sauce.
+7. Stir through the thyme, taste for salt and pepper, and take it off the heat.
+8. Serve over chicken breasts or eye fillet, or toss it through pasta.

@@ -27,6 +27,10 @@ status: final
 
 ## Method
 
-Whip the butter or lard until fluffy, then beat in the egg yolk, whole egg, sugar, and lemon juice. Add the flour, turn the mixture out onto a pastry board, and knead into a dough. Roll it out to about half a centimetre thick.
-
-Using a vanilice cutter, cut out small rounds. Dip each one into the whipped egg white foam, then sprinkle with finely chopped walnuts. Arrange on a greased tray and bake, taking care that they stay pale and don't brown. Once baked, spread with jam and sandwich two together. Dust with vanilla sugar and serve.
+1. Whip the butter or lard until fluffy, then beat in the egg yolk, whole egg, sugar, and lemon juice.
+2. Add the flour, turn the mixture out onto a pastry board, and knead into a dough.
+3. Roll it out to about half a centimetre thick.
+4. Using a vanilice cutter, cut out small rounds.
+5. Dip each one into the whipped egg white foam, then sprinkle with finely chopped walnuts.
+6. Arrange on a greased tray and bake, taking care that they stay pale and don't brown.
+7. Once baked, spread with jam and sandwich two together. Dust with vanilla sugar and serve.

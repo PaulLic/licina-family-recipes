@@ -29,6 +29,11 @@ status: final
 
 ## Method
 
-Rinse the lard or butter, then whip until fluffy. Beat in the egg yolks, sugar, lemon juice, milk, and baking powder. Fold in the stiffly whipped egg whites. Add just enough flour to form a dough that isn't too firm, then roll into two sheets sized to fit your baking tray.
+1. Rinse the lard or butter, then whip until fluffy.
+2. Beat in the egg yolks, sugar, lemon juice, milk, and baking powder, then fold in the stiffly whipped egg whites.
+3. Add just enough flour to form a dough that isn't too firm, then roll into two sheets sized to fit your baking tray.
+4. Grease the tray and dust with flour. Lay down the first sheet of dough, scatter over the cherries, then top with ground walnuts and a little fine sugar.
+5. Cover with the second sheet, brush the top with egg yolk, and bake in a fairly hot oven.
+6. Cut into squares once baked and dust with sugar to serve.
 
-Grease the tray and dust with flour. Lay down the first sheet of dough, scatter over the cherries, then top with ground walnuts and a little fine sugar. Cover with the second sheet, brush the top with egg yolk, and bake in a fairly hot oven. Cut into squares once baked and dust with sugar to serve. Keeps well for several days — reportedly even better with time.
+Keeps well for several days — reportedly even better with time.

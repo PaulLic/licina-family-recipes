@@ -29,10 +29,13 @@ status: final
 
 ## Method
 
-Preheat the oven to 200°C and line a 12-hole muffin tin with paper cases.
+Makes 12.
 
-Whisk the flour, baking powder, bicarb, sugar and salt together in a large bowl. In a second bowl, whisk the buttermilk, melted butter, oil, eggs and vanilla. Make a well in the dry ingredients, pour in the wet, and mix until only just combined — try not to stir more than eight times. A few lumps of flour are exactly right; overmixing is what makes muffins tough.
-
-Fold through most of the blueberries, keeping a handful back. Divide the batter between the paper cases and scatter the reserved berries over the tops.
-
-Bake for 5 minutes, then turn the oven down to 180°C and bake a further 13 minutes (fan) or 15 minutes (standard), until a skewer comes out clean. Lift them straight out of the tin onto a cooling rack. Best served warm. Makes 12.
+1. Preheat the oven to 200°C and line a 12-hole muffin tin with paper cases.
+2. Whisk the flour, baking powder, bicarb, sugar and salt together in a large bowl.
+3. In a second bowl, whisk the buttermilk, melted butter, oil, eggs and vanilla.
+4. Make a well in the dry ingredients, pour in the wet, and mix until only just combined — try not to stir more than eight times. A few lumps of flour are exactly right; overmixing is what makes muffins tough.
+5. Fold through most of the blueberries, keeping a handful back.
+6. Divide the batter between the paper cases and scatter the reserved berries over the tops.
+7. Bake for 5 minutes, then turn the oven down to 180°C and bake a further 13 minutes (fan) or 15 minutes (standard), until a skewer comes out clean.
+8. Lift them straight out of the tin onto a cooling rack. Best served warm.
