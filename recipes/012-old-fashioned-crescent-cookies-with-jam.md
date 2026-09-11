@@ -1,7 +1,7 @@
 ---
 number: 12
 title: Traditional Shortbread Crescent Biscuits with Jam
-alt_title: Starinske Kiflice sa Džemom
+alt_title: Tradicionalne Prhke Kiflice sa Džemom
 tag: Family Favourite
 credit: "adapted from Ivana Lalicki, Serbian Cookbook: Recipes and Stories from Serbia"
 cuisine: Serbian
