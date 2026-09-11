@@ -40,8 +40,6 @@ Makes about 36.
 7. Bake for 15–20 minutes, until lightly golden on the bottom. Lift them onto a cooling rack and repeat with the remaining dough.
 8. Once cool, toss them in the icing sugar mixed with the vanilla sugar.
 
-They keep in a sealed container for up to a week.
-
 *Tip — do not refrigerate the dough. It will result in a much softer biscuit when baked, and less dry.*
 
 *Tip — homemade plum jam makes the best filling.*
