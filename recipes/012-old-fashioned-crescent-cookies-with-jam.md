@@ -22,20 +22,26 @@ status: final
 - 1 tbsp vanilla sugar
 - 1 tbsp lemon zest
 - 1 egg
-- 1 tbsp vanilla extract
 - 520 g plain flour, plus extra for dusting
-- 150 g apricot or plum jam
+- 150 g plum jam
 - 250 g icing sugar, for coating
-- 1 tsp vanilla sugar, for coating
+- 1 tbsp vanilla sugar, for coating
 
 ## Method
 
-Makes about 36. Beat the softened butter, sour cream, salt, granulated sugar, vanilla sugar and lemon zest together with an electric mixer until creamy and fluffy. Add the egg and vanilla extract, then the flour, mixing only until it comes together. Divide the dough into three even portions and shape each one into a disc.
+Makes about 36.
 
-Heat the oven to 180°C and line two large trays with baking paper. On a well-floured surface, roll each disc out into a circle about 23 cm across and cut it into 12 even triangles. Place a teaspoon of jam at the wide base of each triangle, roll it up from the base, and set it on the tray with the point tucked underneath.
+1. Beat the softened butter, sour cream, salt, granulated sugar, vanilla sugar and lemon zest together with an electric mixer until creamy and fluffy.
+2. Add the egg, then the flour, mixing only until the dough comes together.
+3. Divide the dough into three even portions and shape each one into a disc.
+4. Heat the oven to 180°C and line two large trays with baking paper.
+5. On a well-floured surface, roll each disc out into a circle about 23 cm across and cut it into 12 even triangles.
+6. Place a teaspoon of jam at the wide base of each triangle, roll it up from the base, and set it on the tray with the point tucked underneath.
+7. Bake for 15–20 minutes, until lightly golden on the bottom. Lift them onto a cooling rack and repeat with the remaining dough.
+8. Once cool, toss them in the icing sugar mixed with the vanilla sugar.
 
-Bake for 15–20 minutes, until lightly golden on the bottom. Lift them onto a cooling rack and repeat with the remaining dough. Once cool, toss them in the icing sugar mixed with the vanilla sugar. They keep in a sealed container for up to a week.
+They keep in a sealed container for up to a week.
 
 *Tip — do not refrigerate the dough. It will result in a much softer biscuit when baked, and less dry.*
 
-*Tip — homemade apricot or plum jam makes the best filling.*
+*Tip — homemade plum jam makes the best filling.*

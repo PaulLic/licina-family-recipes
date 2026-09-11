@@ -35,10 +35,31 @@ def render_list(md):
 def render_paras(md):
     return ''.join(f'<p>{md_inline(p.strip())}</p>' for p in md.split('\n\n') if p.strip())
 
+STEP_RE = re.compile(r'^\d+[.)]\s+(.*)$')
+
+def render_method(md):
+    out, steps = [], []
+    def flush():
+        if steps:
+            out.append('<ol class="steps">' + ''.join(f'<li>{md_inline(s)}</li>' for s in steps) + '</ol>')
+            steps.clear()
+    for block in md.split('\n\n'):
+        block = block.strip()
+        if not block:
+            continue
+        lines = [l.strip() for l in block.splitlines() if l.strip()]
+        if all(STEP_RE.match(l) for l in lines):
+            steps.extend(STEP_RE.match(l).group(1) for l in lines)
+        else:
+            flush()
+            out.append(f'<p>{md_inline(" ".join(lines))}</p>')
+    flush()
+    return ''.join(out)
+
 recipes = [parse_recipe(p) for p in sorted((ROOT/'recipes').glob('*.md'))]
 for r in recipes:
     r['ingredients_html'] = render_list(r['ingredients'])
-    r['method_html'] = render_paras(r['method'])
+    r['method_html'] = render_method(r['method'])
     r['search'] = ' '.join([r.get('title',''), r.get('alt_title',''), r.get('cuisine',''),
                             r.get('course',''), r.get('tag',''), r.get('ingredients','')]).lower()
 
@@ -102,6 +123,10 @@ nav.tabs button.on{color:#fff;border-bottom-color:var(--accent)}
 .sheet .credit{font-style:italic;color:var(--mid);margin-top:4px}
 .sheet h4{letter-spacing:.15em;font-size:.85rem;text-transform:uppercase;color:var(--accent);margin:22px 0 8px}
 .sheet ul{padding-left:20px}
+.sheet ol.steps{list-style:none;padding:0;margin:0;counter-reset:step}
+.sheet ol.steps li{counter-increment:step;display:grid;grid-template-columns:22px 1fr;column-gap:14px;margin-bottom:13px}
+.sheet ol.steps li::before{content:counter(step);color:var(--accent);text-align:right}
+.sheet ol.steps + p{margin-top:14px}
 .libnote{font-size:.92rem;color:var(--mid);font-style:italic;margin:8px 0 20px}
 table.lib{width:100%;border-collapse:collapse;background:var(--paper);margin-bottom:60px}
 table.lib td,table.lib th{border:1px solid var(--line);padding:9px 12px;text-align:left;font-size:.95rem}

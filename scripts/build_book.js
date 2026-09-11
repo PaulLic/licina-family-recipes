@@ -5,7 +5,7 @@
    Run from repo root: node scripts/build_book.js  → book/Licina-Family-Recipe-Book.docx */
 const fs = require('fs'), path = require('path');
 const { Document, Packer, Paragraph, TextRun, ImageRun, PageBreak, AlignmentType,
-        LevelFormat, convertMillimetersToTwip } = require('docx');
+        LevelFormat, Tab, TabStopType, convertMillimetersToTwip } = require('docx');
 
 const ROOT = path.resolve(__dirname, '..');
 const BROWN = "3E2723", MID = "6D4C41", ACCENT = "8D6E63";
@@ -27,7 +27,16 @@ function parseRecipe(file) {
     sec[name] = s.split('\n').slice(1).join('\n').trim();
   }
   meta.ingredients = (sec['ingredients'] || '').split('\n').filter(l => l.startsWith('- ')).map(l => l.slice(2).replace(/\*/g, ''));
-  meta.method = (sec['method'] || '').split('\n\n').map(p => p.replace(/\n/g, ' ').replace(/\*/g, '').trim()).filter(Boolean);
+  meta.method = [];
+  for (const block of (sec['method'] || '').split('\n\n')) {
+    const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+    if (!lines.length) continue;
+    if (lines.every(l => /^\d+[.)]\s+/.test(l))) {
+      for (const l of lines) meta.method.push({ step: true, text: l.replace(/^\d+[.)]\s+/, '').replace(/\*/g, '').trim() });
+    } else {
+      meta.method.push({ step: false, text: lines.join(' ').replace(/\*/g, '').trim() });
+    }
+  }
   return meta;
 }
 
@@ -117,7 +126,20 @@ recipes.forEach((r, i) => {
   children.push(P({ spacing: { after: 120 }, children: [T("Ingredients", { size: 26, bold: true, color: BROWN })] }));
   for (const ing of r.ingredients) children.push(P({ numbering: { reference: "bullets", level: 0 }, children: [T(ing, { size: 22 })] }));
   children.push(P({ spacing: { before: 240, after: 120 }, children: [T("Method", { size: 26, bold: true, color: BROWN })] }));
-  for (const para of r.method) children.push(P({ spacing: { after: 180 }, children: [T(para, { size: 22 })] }));
+  let stepNo = 0;
+  for (const para of r.method) {
+    if (para.step) {
+      stepNo += 1;
+      children.push(P({
+        spacing: { after: 140 },
+        indent: { left: 400, hanging: 400 },
+        tabStops: [{ type: TabStopType.LEFT, position: 400 }],
+        children: [T(`${stepNo}.`, { size: 22, color: ACCENT }), new TextRun({ children: [new Tab()] }), T(para.text, { size: 22 })]
+      }));
+    } else {
+      children.push(P({ spacing: { after: 180 }, children: [T(para.text, { size: 22 })] }));
+    }
+  }
   children.push(brk());
   // facing image page — fits inside this box, portrait or landscape
   children.push(...spacer(3));
