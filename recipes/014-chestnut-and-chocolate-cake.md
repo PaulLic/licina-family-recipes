@@ -27,16 +27,10 @@ status: final
 
 ## Method
 
-Preheat the oven to 180°C and line a 20 cm round springform tin with baking paper.
-
-Melt the butter and chocolate together.
-
-Mix the orange zest, chestnut purée, egg yolks and almond meal until smooth, then stir through the walnuts and raisins.
-
-In a separate bowl, whisk the egg whites and sugar until soft peaks form.
-
-Fold the chocolate mixture into the chestnut mixture, then fold through the egg white mixture.
-
-Pour into the prepared tin and bake for 30 minutes.
-
-Allow to cool, then dust with icing sugar to serve.
+1. Preheat the oven to 180°C and line a 20 cm round springform tin with baking paper.
+2. Melt the butter and chocolate together.
+3. Mix the orange zest, chestnut purée, egg yolks and almond meal until smooth, then stir through the walnuts and raisins.
+4. In a separate bowl, whisk the egg whites and sugar until soft peaks form.
+5. Fold the chocolate mixture into the chestnut mixture, then fold through the egg white mixture.
+6. Pour into the prepared tin and bake for 30 minutes.
+7. Allow to cool, then dust with icing sugar to serve.
