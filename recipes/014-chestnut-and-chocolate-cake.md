@@ -40,7 +40,3 @@ status: final
 6. Pour into the prepared tin and bake for 30 minutes.
 
 7. Allow to cool, then dust with icing sugar to serve.
-
-## Chef's Tips
-
-1. You can use unsweetened chestnut purée, but you will need to add 200 g caster sugar to the cake and 200 g caster sugar to the filling.

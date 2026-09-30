@@ -26,15 +26,25 @@ status: final
 ## Method
 
 1. Beat the egg yolks with the vanilla essence until they form a thick foam.
+
 2. Soak the biscuit crumbs in the rum, then add them to the yolks along with the chestnut puree.
+
 3. Beat the egg whites to stiff peaks and fold them through the mixture.
+
 4. Line two identical round tins with baking paper and divide the mixture evenly between them.
+
 5. Bake at 170°C for 20–25 minutes, then remove from the oven and allow to cool to room temperature.
+
 6. For the filling, whisk the chestnut puree, vanilla essence, rum, cream, and butter until smooth.
+
 7. Spread over one cake base, place the second cake on top, and refrigerate for 30 minutes to firm up before the topping goes on.
+
 8. Melt the chocolate and butter together in a small saucepan over low heat until glossy and smooth.
+
 9. Pour over the top of the cake and return to the refrigerator to cool completely.
 
 ## Chef's Tips
 
 1. To make small cakes from this recipe, use rectangular tins and cut into small squares.
+
+2. You can use unsweetened chestnut puree, but you will need to add 200g caster sugar to the cake and 200g caster sugar to the filling.
