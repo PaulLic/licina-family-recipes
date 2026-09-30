@@ -16,9 +16,9 @@ status: final
 ## Ingredients
 
 - 1.5 kg lamb cutlets
-- 80 ml (⅓ cup) confit garlic oil
+- 80 ml (⅓ cup) confit garlic oil (recipe below)
 - 3 garlic cloves, crushed
-- 1 tbsp Greek spice mix
+- 1 tbsp Greek spice mix (recipe below)
 - salt flakes and freshly cracked black pepper
 - 1 brown onion, chopped
 - 700 g tomato passata (pureed tomatoes)
@@ -26,8 +26,14 @@ status: final
 - 500 g orzo (kritharáki)
 - 100 g Greek feta, crumbled
 - finely chopped parsley leaves, to serve
+- *Confit garlic oil (makes about 375 ml / 1½ cups):* 3 whole garlic bulbs, 4 fresh bay leaves and 375 ml (1½ cups) extra virgin olive oil
+- *Greek spice mix (makes about 50 g / 1 cup):* 2 tbsp dried oregano; 1 tbsp each of dried dill, dried thyme leaves, dried basil, dried mint and garlic powder; 1 tsp each of ground cinnamon and sweet paprika; 2 tsp salt flakes; and 1 tsp freshly cracked black pepper
 
 ## Method
+
+To make the confit garlic oil, peel the garlic cloves and place them in a saucepan with the bay leaves and olive oil. Heat over high heat until it reaches 60°C on a kitchen thermometer, then reduce the heat to low and cook gently for 30 minutes, or until the garlic is soft and lightly coloured. Allow the oil to cool completely in the pan, then gently pour it into a sterilised 600 ml jar and seal with a lid. It keeps on the kitchen bench or in the pantry for up to 3 months — the longer the garlic sits in the oil, the stronger the flavour, and Australian garlic gives the best results.
+
+To make the Greek spice mix, combine all the spices in a jar and give it a good shake. Seal with a lid, add a label and store in your spice drawer for up to 1 year. It's also great in a schnitzel crumb — combine a cup of dried breadcrumbs with 2 tbsp of the mix to crumb four chicken schnitzels.
 
 Preheat the oven to 180°C and grease a large baking dish (about 40 cm × 25 cm).
 
