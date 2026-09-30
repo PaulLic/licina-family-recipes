@@ -31,11 +31,11 @@ status: final
 
 Preheat the oven to 180°C and grease a large baking dish (about 40 cm × 25 cm).
 
-Toss the lamb chops in a bowl with half the garlic oil, the crushed garlic and Greek spice mix, then season generously with salt flakes and cracked black pepper.
+Toss the lamb cutlets in a bowl with half the garlic oil, the crushed garlic and Greek spice mix, then season generously with salt flakes and cracked black pepper.
 
 Heat the remaining oil in a large frying pan over medium heat and cook the onion for 6–8 minutes, until soft. Spoon the onion into the prepared dish.
 
-Turn the heat up high and, working in batches, fry the lamb chops for 1–2 minutes on each side until browned. Transfer the chops to the dish, cover with the tomato passata and 500 ml of the boiling water, then bake for 30 minutes, or until the sauce has thickened and reduced.
+Turn the heat up high and, working in batches, fry the lamb cutlets for 1–2 minutes on each side until browned. Transfer the cutlets to the dish, cover with the tomato passata and 500 ml of the boiling water, then bake for 30 minutes, or until the sauce has thickened and reduced.
 
 Stir in the orzo along with the remaining boiling water and cook for a further 15 minutes, stirring every 5 minutes, until the orzo is cooked through.
 
