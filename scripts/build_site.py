@@ -17,7 +17,7 @@ def parse_recipe(path):
             v = json.loads(v)
         meta[k.strip()] = v
     sections = {}
-    for name, content in re.findall(r"## ([\w][\w &'\u2019-]*)\n\n(.*?)(?=\n## |\Z)", body, re.S):
+    for name, content in re.findall(r"## ([\w][\w &'’-]*)\n\n(.*?)(?=\n## |\Z)", body, re.S):
         sections[name.lower()] = content.strip()
     meta['ingredients'] = sections.get('ingredients', '')
     meta['method'] = sections.get('method', '')
@@ -155,8 +155,8 @@ footer{text-align:center;color:var(--mid);font-size:.85rem;padding:30px 0 40px;f
   <section id="tab-recipes">
     <div class="about">
       <h2>ABOUT THIS COLLECTION</h2>
-      <p>My beautiful daughters Natasha and Bianca asked me to write a recipe book of all their favourite meals they enjoyed as children and continue to enjoy as young adults. This collection includes those recipes and a collection of my own favourites from talented chefs and my own creations.</p>
-      <p style="margin-top:.8em">For me, cooking has always been an expression of my creativity and my kitchen a space for relaxation. Preparing and serving food for my family and friends is how I stay socially connected and show love. My husband motivates and encourages my passion for cooking; often joining me in designing menus, sourcing ingredients and preparing dinners for social occasions with our friends and family.</p>
+      <p>My beautiful daughters Natasha and Bianca asked me to write a recipe book of all their favourite meals they enjoyed as children and continue to enjoy as young adults. This collection includes those recipes, recipes from my favourite chefs, and my own creations.</p>
+      <p style="margin-top:.8em">Cooking has always been an expression of my creativity and how I show love to my family and friends. My husband encourages my passion for cooking; often joining me in designing menus, sourcing ingredients and preparing dinners for social occasions with our friends and family.</p>
     </div>
     <div class="toolbar">
       <input id="q" type="search" placeholder="Search recipes or ingredients&hellip;">
