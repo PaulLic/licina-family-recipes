@@ -31,18 +31,32 @@ status: final
 
 ## Method
 
-To make the confit garlic oil, peel the garlic cloves and place them in a saucepan with the bay leaves and olive oil. Heat over high heat until it reaches 60°C on a kitchen thermometer, then reduce the heat to low and cook gently for 30 minutes, or until the garlic is soft and lightly coloured. Allow the oil to cool completely in the pan, then gently pour it into a sterilised 600 ml jar and seal with a lid. It keeps on the kitchen bench or in the pantry for up to 3 months — the longer the garlic sits in the oil, the stronger the flavour, and Australian garlic gives the best results.
+1. To make the confit garlic oil, peel the garlic cloves and place them in a saucepan with the bay leaves and olive oil. Heat over high heat until it reaches 60°C on a kitchen thermometer, then reduce the heat to low and cook gently for 30 minutes, or until the garlic is soft and lightly coloured.
 
-To make the Greek spice mix, combine all the spices in a jar and give it a good shake. Seal with a lid, add a label and store in your spice drawer for up to 1 year. It's also great in a schnitzel crumb — combine a cup of dried breadcrumbs with 2 tbsp of the mix to crumb four chicken schnitzels.
+2. Allow the oil to cool completely in the pan, then gently pour it into a sterilised 600 ml jar and seal with a lid.
 
-Preheat the oven to 180°C and grease a large baking dish (about 40 cm × 25 cm).
+3. To make the Greek spice mix, combine all the spices in a jar and give it a good shake. Seal with a lid and add a label.
 
-Toss the lamb cutlets in a bowl with half the garlic oil, the crushed garlic and Greek spice mix, then season generously with salt flakes and cracked black pepper.
+4. Preheat the oven to 180°C and grease a large baking dish (about 40 cm × 25 cm).
 
-Heat the remaining oil in a large frying pan over medium heat and cook the onion for 6–8 minutes, until soft. Spoon the onion into the prepared dish.
+5. Toss the lamb cutlets in a bowl with half the garlic oil, the crushed garlic and Greek spice mix, then season generously with salt flakes and cracked black pepper.
 
-Turn the heat up high and, working in batches, fry the lamb cutlets for 1–2 minutes on each side until browned. Transfer the cutlets to the dish, cover with the tomato passata and 500 ml of the boiling water, then bake for 30 minutes, or until the sauce has thickened and reduced.
+6. Heat the remaining oil in a large frying pan over medium heat and cook the onion for 6–8 minutes, until soft. Spoon the onion into the prepared dish.
 
-Stir in the orzo along with the remaining boiling water and cook for a further 15 minutes, stirring every 5 minutes, until the orzo is cooked through.
+7. Turn the heat up high and, working in batches, fry the lamb cutlets for 1–2 minutes on each side until browned.
 
-Scatter with the crumbled feta and parsley leaves and serve immediately — lovely with roasted garlic and fennel tzatziki spooned over the top.
+8. Transfer the cutlets to the dish, cover with the tomato passata and 500 ml of the boiling water, then bake for 30 minutes, or until the sauce has thickened and reduced.
+
+9. Stir in the orzo along with the remaining boiling water and cook for a further 15 minutes, stirring every 5 minutes, until the orzo is cooked through.
+
+10. Scatter with the crumbled feta and parsley leaves and serve immediately.
+
+## Chef's Tips
+
+1. Serve with roasted garlic and fennel tzatziki spooned over the top.
+
+2. The confit garlic oil keeps on the kitchen bench or in the pantry for up to 3 months. The longer the garlic sits in the oil, the stronger the flavour, and Australian garlic gives the best results.
+
+3. Once cooled, the confit garlic becomes like butter. Spread it over sourdough or add it to most recipes that call for garlic.
+
+4. The Greek spice mix keeps in your spice drawer for up to 1 year. It's also great in a schnitzel crumb: combine 1 cup of dried breadcrumbs with 2 tbsp of the mix to crumb four chicken schnitzels.
