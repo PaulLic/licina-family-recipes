@@ -94,9 +94,10 @@ body{font-family:Georgia,'Times New Roman',serif;background:var(--cream);color:v
 .wrap{max-width:1000px;margin:0 auto;padding:0 20px}
 header.cover{text-align:center;padding:70px 20px 50px;background:var(--brown);color:var(--cream)}
 header.cover .the{letter-spacing:.5em;font-size:.9rem;color:#d7ccc0}
-header.cover h1{font-size:clamp(1.6rem,5vw,3rem);letter-spacing:.12em;margin:.4em 0 .2em;font-weight:normal}
-header.cover .tagline{font-style:italic;color:#d7ccc0;max-width:620px;margin:1em auto 0;font-size:1.05rem}
-.rule{width:120px;border:none;border-top:1px solid var(--accent);margin:1.4em auto}
+header.cover h1{font-size:clamp(1.8rem,6vw,3rem);letter-spacing:.12em;margin:.4em 0 .2em;font-weight:normal;line-height:1.2}
+header.cover h1 .sub{display:block;font-size:.5em;letter-spacing:.35em;margin-top:.5em}
+header.cover .tagline{font-style:italic;color:#d7ccc0;max-width:620px;margin:0 auto;font-size:1.05rem;line-height:1.7}
+.rule{width:140px;border:none;border-top:1px solid var(--accent);margin:1.4em auto}
 nav.tabs{display:flex;justify-content:center;gap:0;background:var(--brown);padding-bottom:0}
 nav.tabs button{font-family:inherit;font-size:1rem;padding:12px 26px;border:none;cursor:pointer;background:transparent;color:#d7ccc0;border-bottom:3px solid transparent}
 nav.tabs button.on{color:#fff;border-bottom-color:var(--accent)}
@@ -133,7 +134,7 @@ nav.tabs button.on{color:#fff;border-bottom-color:var(--accent)}
 table.lib{width:100%;border-collapse:collapse;background:var(--paper);margin-bottom:60px}
 table.lib td,table.lib th{border:1px solid var(--line);padding:9px 12px;text-align:left;font-size:.95rem}
 table.lib th{background:var(--brown);color:var(--cream);font-weight:normal;letter-spacing:.08em}
-.dl{display:inline-block;margin-top:1.2em;padding:10px 22px;border:1px solid var(--accent);color:var(--cream);text-decoration:none;font-size:.95rem}
+.dl{display:inline-block;margin-top:.4em;padding:10px 22px;border:1px solid var(--accent);color:var(--cream);text-decoration:none;font-size:.95rem}
 .dl:hover{background:var(--accent)}
 footer{text-align:center;color:var(--mid);font-size:.85rem;padding:30px 0 40px;font-style:italic}
 @media(max-width:600px){.sheet{padding:26px 20px 34px}}
@@ -142,9 +143,10 @@ footer{text-align:center;color:var(--mid);font-size:.85rem;padding:30px 0 40px;f
 <body>
 <header class="cover">
   <div class="the">THE</div>
-  <h1>LICINA<br>FAMILY RECIPE COLLECTION</h1>
+  <h1>LICINA<br>FAMILY<span class="sub">RECIPE COLLECTION</span></h1>
   <hr class="rule">
-  <div class="tagline">Recipes gathered with love, from Tatjana&rsquo;s kitchen for the kitchens of future generations of Licinas</div>
+  <div class="tagline">Recipes gathered with love,<br>from Tatjana&rsquo;s kitchen<br>for the kitchens of<br>future generations of Licinas</div>
+  <hr class="rule">
   <a class="dl" href="book/Licina-Family-Recipe-Book.pdf">Download the printable book (PDF)</a>
 </header>
 <nav class="tabs">

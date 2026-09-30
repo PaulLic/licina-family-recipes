@@ -89,16 +89,21 @@ function img(rel, maxWMM, maxHMM) {
 const children = [];
 
 // ---- p1 Cover
-children.push(...spacer(6));
+children.push(...spacer(2));
 children.push(P({ alignment: AlignmentType.CENTER, children: [T("THE", { size: 28, color: MID, characterSpacing: 60 })] }));
-children.push(...spacer(1));
 children.push(P({ alignment: AlignmentType.CENTER, children: [T("LICINA", { size: 72, bold: true, color: BROWN })] }));
-children.push(P({ alignment: AlignmentType.CENTER, children: [T("FAMILY RECIPE COLLECTION", { size: 48, bold: true, color: BROWN })] }));
-children.push(...spacer(2));
+children.push(P({ alignment: AlignmentType.CENTER, children: [T("FAMILY", { size: 72, bold: true, color: BROWN })] }));
+children.push(P({ alignment: AlignmentType.CENTER, children: [T("RECIPE COLLECTION", { size: 36, bold: true, color: BROWN, characterSpacing: 60 })] }));
+children.push(...spacer(1));
 const coverFile = fs.readdirSync(path.join(ROOT,'images')).find(f => f.startsWith('cover.'));
-children.push(P({ alignment: AlignmentType.CENTER, children: [img('images/' + coverFile, 100, 133)] }));
-children.push(...spacer(2));
-children.push(P({ alignment: AlignmentType.CENTER, children: [T("Recipes gathered with love, from Tatjana’s kitchen for the kitchens of future generations of Licinas", { italics: true, size: 24, color: MID })] }));
+children.push(P({ alignment: AlignmentType.CENTER, children: [img('images/' + coverFile, 85, 113)] }));
+children.push(...spacer(1));
+for (const line of [
+  "Recipes gathered with love,",
+  "from Tatjana’s kitchen",
+  "for the kitchens of",
+  "future generations of Licinas",
+]) children.push(P({ alignment: AlignmentType.CENTER, children: [T(line, { italics: true, size: 24, color: MID })] }));
 children.push(brk());
 
 // ---- p2 spacer (back of cover)
