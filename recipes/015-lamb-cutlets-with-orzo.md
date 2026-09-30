@@ -15,7 +15,7 @@ status: final
 
 ## Ingredients
 
-- 1.5 kg lamb chops
+- 1.5 kg lamb cutlets
 - 80 ml (⅓ cup) confit garlic oil
 - 3 garlic cloves, crushed
 - 1 tbsp Greek spice mix
