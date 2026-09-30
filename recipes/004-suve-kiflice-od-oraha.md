@@ -3,7 +3,7 @@ number: 4
 title: Suve Kiflice od Oraha
 alt_title: Dry Walnut Crescents
 tag: Family Favourite
-credit: "Serbian heritage \u2014 from Veliki Narodni Kuvar (\"The Great Folk Cookbook\"), translated from the original Cyrillic"
+credit: "Serbian heritage — from Veliki Narodni Kuvar (\"The Great Folk Cookbook\"), translated from the original Cyrillic"
 cuisine: Serbian
 course: Sweets & Biscuits
 image: images/004-suve-kiflice-od-oraha.png
@@ -25,9 +25,23 @@ status: final
 ## Method
 
 1. Grind the walnuts and place them in a pot with the sugar, egg whites, and lemon zest.
+
 2. Mix together and warm gently on the stove — just enough to dissolve the sugar into the mixture, without letting it boil.
+
 3. Remove from the heat and transfer to another dish to cool.
+
 4. Once cooled, mix in the remaining 2 egg whites.
+
 5. Turn the dough out onto a floured board and work it until it no longer sticks to your hands.
+
 6. Shape into rolls about 10cm long, curve each into a crescent shape, and sprinkle generously with chopped walnuts.
+
 7. Bake on low heat so they stay pale.
+
+## Chef's Tips
+
+1. Warm the mixture only enough to dissolve the sugar. Don't let it boil.
+
+2. Work the dough on the floured board until it no longer sticks to your hands.
+
+3. Bake on low heat so the crescents stay pale.

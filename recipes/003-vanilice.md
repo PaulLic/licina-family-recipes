@@ -3,12 +3,12 @@ number: 3
 title: Vanilice
 alt_title: Vanilla Sandwich Cookies
 tag: Family Favourite
-credit: "Serbian heritage \u2014 from Veliki Narodni Kuvar (\"The Great Folk Cookbook\"), translated from the original Cyrillic"
+credit: "Serbian heritage — from Veliki Narodni Kuvar (\"The Great Folk Cookbook\"), translated from the original Cyrillic"
 cuisine: Serbian
 course: Sweets & Biscuits
 image: images/003-vanilice.png
 image_status: placeholder
-reference_link: "\"Serbian Vanilice (Jam Sandwich Cookies)\" \u2014 DelishGlobe"
+reference_link: "\"Serbian Vanilice (Jam Sandwich Cookies)\" — DelishGlobe"
 date_added: 2026-07-20
 status: final
 ---
@@ -28,9 +28,21 @@ status: final
 ## Method
 
 1. Whip the butter or lard until fluffy, then beat in the egg yolk, whole egg, sugar, and lemon juice.
+
 2. Add the flour, turn the mixture out onto a pastry board, and knead into a dough.
+
 3. Roll it out to about half a centimetre thick.
+
 4. Using a vanilice cutter, cut out small rounds.
+
 5. Dip each one into the whipped egg white foam, then sprinkle with finely chopped walnuts.
+
 6. Arrange on a greased tray and bake, taking care that they stay pale and don't brown.
+
 7. Once baked, spread with jam and sandwich two together. Dust with vanilla sugar and serve.
+
+## Chef's Tips
+
+1. Roll the dough out to about half a centimetre thick.
+
+2. Bake carefully so the biscuits stay pale and don't brown.

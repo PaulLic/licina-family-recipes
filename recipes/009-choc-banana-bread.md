@@ -30,8 +30,19 @@ status: final
 Makes 8 to 10 slices.
 
 1. Preheat the oven to 180°C. Sift the flour and baking powder into a large bowl.
+
 2. In a separate bowl, mix the butter, sugar, banana, eggs, vanilla, chocolate chips and walnuts.
+
 3. Add to the dry ingredients and stir just to combine — a loose mixture keeps the loaf moist, so be careful not to overmix.
+
 4. Pour the batter into a non-stick, or lightly greased and floured, 19 x 11cm loaf tin and bake for 1 hour 15 minutes, until a skewer comes out clean.
+
 5. Leave to cool in the tin for 5 minutes before turning out onto a wire rack.
+
 6. Serve in thick slices with butter.
+
+## Chef's Tips
+
+1. Stir the batter just to combine. A loose mixture keeps the loaf moist, so be careful not to overmix.
+
+2. Serve in thick slices with butter.

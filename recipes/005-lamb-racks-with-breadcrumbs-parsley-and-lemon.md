@@ -29,10 +29,25 @@ status: final
 ## Method
 
 1. Toast the bread until lightly golden, then crumble or process into breadcrumbs.
+
 2. Combine with the parsley, lemon zest, crushed garlic, olive oil, salt, and pepper.
+
 3. Rub the lamb racks with a little extra olive oil and season well.
+
 4. Sear fat-side down in a hot pan for 2 minutes, then transfer to a baking tray.
+
 5. Spread the top of each rack with mustard and press on the breadcrumb mixture.
+
 6. Roast alongside the cherry tomatoes and whole garlic cloves at 180°C for 25–30 minutes, until the lamb is cooked and still pink inside.
+
 7. Rest, loosely covered in foil, for 5 minutes.
+
 8. Cut each rack in half and serve with the roasted tomatoes and garlic.
+
+## Chef's Tips
+
+1. Sear the racks fat-side down in a hot pan for 2 minutes before roasting.
+
+2. Roast until the lamb is cooked but still pink inside, then rest it loosely covered in foil for 5 minutes.
+
+3. Serve with the roasted tomatoes and garlic.

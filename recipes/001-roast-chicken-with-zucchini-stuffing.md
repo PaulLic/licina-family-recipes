@@ -29,7 +29,19 @@ status: final
 ## Method
 
 1. Mix the zucchini, spring onion, breadcrumbs, parmesan, and herbs into a stuffing.
+
 2. Loosen the chicken's skin from the breast without tearing it, then pack the stuffing into that pocket so it bastes the meat as it roasts.
+
 3. Truss, oil, and season the outside, then roast at 220°C for about 1¼ hours until the thigh juices run clear (or the thigh reaches 82°C internally).
+
 4. Rest for 10–15 minutes before carving into quarters.
+
 5. For the jus, deglaze the roasting pan with stock, reduce, and adjust with tomato paste or sherry if needed.
+
+## Chef's Tips
+
+1. Packing the stuffing under the skin bastes the meat as it roasts, so take care not to tear the skin when you loosen it.
+
+2. The chicken is ready when the thigh juices run clear, or the thigh reaches 82°C internally.
+
+3. Rest the chicken for 10–15 minutes before carving.
