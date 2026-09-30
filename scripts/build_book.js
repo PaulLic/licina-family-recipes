@@ -29,7 +29,7 @@ function parseRecipe(file) {
   meta.ingredients = (sec['ingredients'] || '').split('\n').filter(l => l.startsWith('- ')).map(l => l.slice(2).replace(/\*/g, ''));
   meta.method = [];
   meta.tips = [];
-  for (const line of (sec["chef's tips"] || sec['chef\u2019s tips'] || '').split('\n')) {
+  for (const line of (sec["chef's tips"] || sec['chef’s tips'] || '').split('\n')) {
     const t = line.trim();
     if (t) meta.tips.push(t.replace(/^\d+[.)]\s+/, '').replace(/\*/g, '').trim());
   }
@@ -110,8 +110,8 @@ children.push(...spacer(3));
 children.push(P({ alignment: AlignmentType.CENTER, children: [T("About This Collection", { size: 40, bold: true, color: BROWN })] }));
 children.push(...spacer(1));
 for (const para of [
-  "My beautiful daughters Natasha and Bianca asked me to write a recipe book of all their favourite meals they enjoyed as children and continue to enjoy as young adults. This collection includes those recipes and a collection of my own favourites from talented chefs and my own creations.",
-  "For me, cooking has always been an expression of my creativity and my kitchen a space for relaxation. Preparing and serving food for my family and friends is how I stay socially connected and show love. My husband motivates and encourages my passion for cooking; often joining me in designing menus, sourcing ingredients and preparing dinners for social occasions with our friends and family.",
+  "My beautiful daughters Natasha and Bianca asked me to write a recipe book of all their favourite meals they enjoyed as children and continue to enjoy as young adults. This collection includes those recipes, recipes from my favourite chefs, and my own creations.",
+  "Cooking has always been an expression of my creativity and how I show love to my family and friends. My husband encourages my passion for cooking; often joining me in designing menus, sourcing ingredients and preparing dinners for social occasions with our friends and family.",
 ]) children.push(P({ spacing: { after: 240 }, children: [T(para, { size: 24 })] }));
 children.push(...spacer(1));
 children.push(P({ children: [T("How Recipes Are Tagged", { size: 28, bold: true, color: BROWN })] }));
@@ -146,7 +146,7 @@ recipes.forEach((r, i) => {
     }
   }
   if (r.tips.length) {
-    children.push(P({ spacing: { before: 240, after: 120 }, children: [T("Chef\u2019s Tips", { size: 26, bold: true, color: BROWN })] }));
+    children.push(P({ spacing: { before: 240, after: 120 }, children: [T("Chef’s Tips", { size: 26, bold: true, color: BROWN })] }));
     let tipNo = 0;
     for (const tip of r.tips) {
       tipNo += 1;
