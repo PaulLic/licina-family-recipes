@@ -20,7 +20,7 @@ status: final
 - A pinch of salt
 - 1 tbsp granulated sugar
 - 1 tbsp vanilla sugar
-- 1 tbsp lemon zest
+- 1 tsp lemon zest
 - 1 egg
 - 520 g plain flour, plus extra for dusting
 - 150 g plum jam
