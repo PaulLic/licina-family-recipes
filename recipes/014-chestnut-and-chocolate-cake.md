@@ -37,6 +37,6 @@ status: final
 
 5. Fold the chocolate mixture into the chestnut mixture, then fold through the egg white mixture.
 
-6. Pour into the prepared tin and bake for 30 minutes.
+6. Pour into the prepared tin and bake for 45 minutes.
 
 7. Allow to cool, then dust with icing sugar to serve.
