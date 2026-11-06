@@ -6,8 +6,8 @@ tag: Tanya's Original
 credit: ""
 cuisine: Italian
 course: Dessert
-image: images/014-chestnut-and-chocolate-cake.png
-image_status: placeholder
+image: images/014-chestnut-and-chocolate-cake.jpg
+image_status: photo
 reference_link: ""
 date_added: 2026-09-16
 status: final
